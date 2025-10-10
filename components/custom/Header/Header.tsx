@@ -113,7 +113,7 @@ export default function SiteHeader() {
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
           <Link href="/" className="group inline-flex items-center gap-4">
-            <div className="relative grid h-8 w-8 place-items-center ">
+            <div className="relative grid h-9 w-9 place-items-center ">
               <Image
                 src="/favicon.svg"
                 alt="Company Logo"
@@ -129,13 +129,13 @@ export default function SiteHeader() {
                 className="hidden dark:flex"
               />
             </div>
-            <div className="flex items-baseline gap-2">
-              <span className="text-[16px] font-semibold hidden md:block tracking-widest">
+            <div className="flex flex-col column items-baseline gap-1">
+              <span className="text-[12px] sm:text-[16px] font-semibold  md:block tracking-widest">
                 MEDIA X INFINITY
               </span>
-              <Badge variant="secondary" className="hidden text-[10px]  ">
-                ⚡Bolt
-              </Badge>
+              <span className="text-[6px] sm:text-[9px] font-semibold  md:block tracking-widest">
+                GSTIN: 24ACEFM8886E1ZW
+              </span>
             </div>
           </Link>
         </div>
