@@ -112,31 +112,40 @@ export default function SiteHeader() {
       <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-4 sm:px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
-          <Link href="/" className="group inline-flex items-center gap-4">
-            <div className="relative grid h-9 w-9 place-items-center ">
-              <Image
-                src="/favicon.svg"
-                alt="Company Logo"
-                width={200}
-                height={80}
-                className="flex dark:hidden"
-              />
-              <Image
-                src="/favicon-red-2.svg"
-                alt="Company Logo"
-                width={200}
-                height={80}
-                className="hidden dark:flex"
-              />
+          <Link href="/" className="flex flex-col gap-0 sm:gap-2">
+            <div className="flex flex-row justify-start align-middle gap-3 sm:gap-3">
+              <div className="flex flex-col  relative h-6 w-7 sm:h-8 sm:w-10 my-auto ">
+                <Image
+                  src="/favicon.svg"
+                  alt="Company Logo"
+                  width={200}
+                  height={80}
+                  className="flex dark:hidden"
+                />
+                <Image
+                  src="/favicon-red-2.svg"
+                  alt="Company Logo"
+                  width={200}
+                  height={80}
+                  className="hidden dark:flex"
+                />
+              </div>
+              <div className="sm:flex flex-col column items-baseline gap-1">
+                <span className="hidden sm:block text-[12px] sm:text-[16px] font-semibold tracking-widest">
+                  MEDIA X INFINITY
+                </span>
+                <span className="block sm:hidden text-[28px] sm:text-[16px] font-semibold tracking-widest">
+                  MXI
+                </span>
+                <span className="hidden sm:block text-[7px] sm:text-[9px] font-semibold tracking-widest">
+                  GSTIN: 24ACEFM8886E1ZW
+                </span>
+              </div>
             </div>
-            <div className="flex flex-col column items-baseline gap-1">
-              <span className="text-[12px] sm:text-[16px] font-semibold  md:block tracking-widest">
-                MEDIA X INFINITY
-              </span>
-              <span className="text-[6px] sm:text-[9px] font-semibold  md:block tracking-widest">
-                GSTIN: 24ACEFM8886E1ZW
-              </span>
-            </div>
+
+            <span className="sm:hidden text-[6px] sm:text-[9px]  tracking-widest">
+              GSTIN:24ACEFM8886E1ZW
+            </span>
           </Link>
         </div>
 
