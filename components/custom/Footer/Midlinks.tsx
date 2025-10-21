@@ -68,7 +68,7 @@ const Midlinks = () => {
           </li>
           <li>
             <Link href="/services/mvps-and-prototypes">
-              Building MPVs & Prototypes
+              Building MVPs & Prototypes
             </Link>
           </li>
           <li>

@@ -364,7 +364,7 @@ const data = [
   },
   {
     category: "Ideas Into Actions",
-    title: "Building MPVs & Prototypes",
+    title: "Building MVPs & Prototypes",
     src: "/services/mvp.jpg",
     content: <DummyContentFour />,
   },

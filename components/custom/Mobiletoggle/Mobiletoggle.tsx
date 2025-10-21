@@ -72,7 +72,7 @@ const data = {
         },
 
         {
-          title: "Building MPVs & Prototypes",
+          title: "Building MVPs & Prototypes",
           url: "/services/mvps-and-prototypes",
         },
         {
